@@ -38,7 +38,7 @@ This is a repository for organizing papers, codes and other resources related to
   - Main features: xxx
   - Parallel computation: xxx
   - Heterogeneous: xxx 
-- [LightLLM](https://github.com/ModelTC/lightllm) | ModelTC ![Github stars](https://img.shields.io/github/stars/ModelTC/lightllmsvg) ![Github forks](https://img.shields.io/github/forks/ModelTC/lightllm.svg)
+- [LightLLM](https://github.com/ModelTC/lightllm) | ModelTC ![Github stars](https://img.shields.io/github/stars/ModelTC/lightllm.svg) ![Github forks](https://img.shields.io/github/forks/ModelTC/lightllm.svg)
   - Prioritized optimization target: xxx
   - Optimization: xxx
   - Main features: xxx
