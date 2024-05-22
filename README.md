@@ -1,9 +1,23 @@
 # HetServe-LLMs
-📖 A curated list of resources dedicated to serving LLMs on distributed heterogeneous devices.
+This is a repository for organizing papers, codes and other resources related to the topic of distributed serving LLMs.
 
 ## LLM Serving Survey
 - [Full Stack Optimization of Transformer Inference: a Survey](https://arxiv.org/abs/2302.14017) | UC Berkeley
 - [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/pdf/2312.15234) | Carnegie Mellon University
+
 ## LLM Serving Systems
 
+- Common parallel compuation contains tensor parallelism (TP), pipeline parallelism (PP), and CPU-GPU offloading (Offload).
+- Heterogeneous denotes running LLMs on multiple heterogeneous devices. 
+
+|Serving System|Serving Optimization|Main Features|Parallel Computation|Heterogeneous|
+|:---:|:---:|:---:|:---:|:---:|
+|[Accelerate](https://github.com/huggingface/accelerate)|xxx|xxx|✔️TP<br>✔️PP<br>✔️Offload||
+|[vLLM](https://github.com/vllm-project/vllm)|xxx|xxx|✔️TP<br>✔️PP|✔️|
+|[llama.cpp](https://github.com/ggerganov/llama.cpp)|xxx|xxx|✔️TP<br>✔️PP|✔️|
+|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)|xxx|xxx|||
+
 ## Distributed Inference
+- [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue
+- [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
+- [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) | Alibaba Group
