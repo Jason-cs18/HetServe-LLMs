@@ -11,7 +11,7 @@ This is a repository for organizing papers, codes and other resources related to
 - Heterogeneous: running LLMs on multiple heterogeneous devices. 
 
 |Serving System|Prioritized Optimization Target|Serving Optimization|Main Features|Parallel Computation|Heterogeneous|
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Accelerate](https://github.com/huggingface/accelerate)|xxx|xxx|xxx|✔️TP<br>✔️PP<br>✔️Offload||
 |[vLLM](https://github.com/vllm-project/vllm)|Throughput|xxx|xxx|✔️TP<br>✔️PP|✔️|
 |[llama.cpp](https://github.com/ggerganov/llama.cpp)|Latency|xxx|xxx|✔️TP<br>✔️PP|✔️|
