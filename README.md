@@ -8,7 +8,7 @@ This is a repository for organizing papers, codes and other resources related to
 ## LLM Serving Systems
 > tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
 
-- [Accelerate](https://github.com/huggingface/accelerate) | HuggingFace
+- [Accelerate](https://github.com/huggingface/accelerate) | HuggingFace ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)
   - Prioritized optimization target: xxx
   - Optimization: xxx
   - Main features: xxx
@@ -21,20 +21,35 @@ This is a repository for organizing papers, codes and other resources related to
   - Parallel computation: xxx
   - Heterogeneous: xxx 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) | Georgi Gerganov
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: xxx
+  - Heterogeneous: xxx 
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: xxx
+  - Heterogeneous: xxx 
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: xxx
+  - Heterogeneous: xxx 
 - [LightLLM](https://github.com/ModelTC/lightllm) | ModelTC
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: xxx
+  - Heterogeneous: xxx 
 - [MLC-LLM](https://github.com/mlc-ai/mlc-llm) | CMU
-
-|Serving System|Prioritized Opt. Target|Optimization|Main Features|Parallel Computation|Heterogeneous|
-|:---:|:---|:---|:---|:---|:---:|
-|[Accelerate](https://github.com/huggingface/accelerate)|xxx|xxx|xxx|✔️TP<br>✔️PP<br>✔️Offload||
-|[vLLM](https://github.com/vllm-project/vllm)|Throughput|xxx|xxx|✔️TP<br>✔️PP|✔️|
-|[llama.cpp](https://github.com/ggerganov/llama.cpp)|Latency|xxx|xxx|✔️TP<br>✔️PP|✔️|
-|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)|Latency|xxx|xxx|||
-|[DeepSpeedInference](https://github.com/microsoft/DeepSpeed)|Throughput|xxx|xxx|||
-|[LightLLM](https://github.com/ModelTC/lightllm)|xxx|xxx|xxx|||
-|[MLC-LLM](https://github.com/mlc-ai/mlc-llm)|Latency|xxx|xxx|||
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: xxx
+  - Heterogeneous: xxx 
 
 ## Distributed Inference
 - [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
