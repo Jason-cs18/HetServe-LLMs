@@ -7,8 +7,8 @@ This is a repository for organizing papers, codes and other resources related to
 
 ## LLM Serving Systems
 
-- Common parallel compuation contains tensor parallelism (TP), pipeline parallelism (PP), and CPU-GPU offloading (Offload).
-- Heterogeneous denotes running LLMs on multiple heterogeneous devices. 
+- Parallel compuation: tensor parallelism (TP), pipeline parallelism (PP), and CPU-GPU offloading (Offload).
+- Heterogeneous: running LLMs on multiple heterogeneous devices. 
 
 |Serving System|Serving Optimization|Main Features|Parallel Computation|Heterogeneous|
 |:---:|:---:|:---:|:---:|:---:|
