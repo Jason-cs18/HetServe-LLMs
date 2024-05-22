@@ -10,55 +10,12 @@ This is a repository for organizing papers, codes and other resources related to
 
 |Serving system|Optimization target|Optimization|Main features|Parallel computation|Heterogeneous|
 |:---|:---|:---|:---|:---|:---|
-|[Accelerate](https://github.com/huggingface/accelerate)![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|:---|:---|:---|:---|:---|
-|[vLLM](https://github.com/vllm-project/vllm) ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)|:---|:---|:---|:---|:---|
-|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) ![Github stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg) ![Github forks](https://img.shields.io/github/forks/NVIDIA/TensorRT-LLM.svg)|:---|:---|:---|:---|:---|
-|[LightLLM](https://github.com/ModelTC/lightllm) ![Github stars](https://img.shields.io/github/stars/ModelTC/lightllm.svg) ![Github forks](https://img.shields.io/github/forks/ModelTC/lightllm.svg)|:---|:---|:---|:---|:---|
-|[MLC-LLM](https://github.com/mlc-ai/mlc-llm) ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|:---|:---|:---|:---|:---|
-|[DeepSpeed](https://github.com/microsoft/DeepSpeed) ![Github stars](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg) ![Github forks](https://img.shields.io/github/forks/microsoft/DeepSpeed.svg)|:---|:---|:---|:---|:---|
-
-- [Accelerate](https://github.com/huggingface/accelerate) | HuggingFace ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: TP, PP, offload
-  - Heterogeneous: xxx 
-- [vLLM](https://github.com/vllm-project/vllm) | UC Berkeley ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: xxx
-  - Heterogeneous: xxx 
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) | Georgi Gerganov ![Github stars](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg) ![Github forks](https://img.shields.io/github/forks/ggerganov/llama.cpp.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: xxx
-  - Heterogeneous: xxx 
-- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA ![Github stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg) ![Github forks](https://img.shields.io/github/forks/NVIDIA/TensorRT-LLM.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: xxx
-  - Heterogeneous: xxx 
-- [DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft ![Github stars](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg) ![Github forks](https://img.shields.io/github/forks/microsoft/DeepSpeed.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: xxx
-  - Heterogeneous: xxx 
-- [LightLLM](https://github.com/ModelTC/lightllm) | ModelTC ![Github stars](https://img.shields.io/github/stars/ModelTC/lightllm.svg) ![Github forks](https://img.shields.io/github/forks/ModelTC/lightllm.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: xxx
-  - Heterogeneous: xxx 
-- [MLC-LLM](https://github.com/mlc-ai/mlc-llm) | CMU ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)
-  - Prioritized optimization target: xxx
-  - Optimization: xxx
-  - Main features: xxx
-  - Parallel computation: xxx
-  - Heterogeneous: xxx 
+|[Accelerate](https://github.com/huggingface/accelerate)![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|xxx|xxx|xxx|xxx|xxx|
+|[vLLM](https://github.com/vllm-project/vllm) ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)|xxx|xxx|xxx|xxx|xxx|
+|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) ![Github stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg) ![Github forks](https://img.shields.io/github/forks/NVIDIA/TensorRT-LLM.svg)|xxx|xxx|xxx|xxx|xxx|
+|[LightLLM](https://github.com/ModelTC/lightllm) ![Github stars](https://img.shields.io/github/stars/ModelTC/lightllm.svg) ![Github forks](https://img.shields.io/github/forks/ModelTC/lightllm.svg)|xxx|xxx|xxx|xxx|xxx|
+|[MLC-LLM](https://github.com/mlc-ai/mlc-llm) ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|xxx|xxx|xxx|xxx|xxx|
+|[DeepSpeed](https://github.com/microsoft/DeepSpeed) ![Github stars](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg) ![Github forks](https://img.shields.io/github/forks/microsoft/DeepSpeed.svg)|xxx|xxx|xxx|xxx|xxx|
 
 ## Distributed Inference
 - [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
