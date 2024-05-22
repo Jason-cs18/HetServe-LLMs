@@ -8,6 +8,15 @@ This is a repository for organizing papers, codes and other resources related to
 ## LLM Serving Systems
 > tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
 
+|Serving system|Optimization target|Optimization|Main features|Parallel computation|Heterogeneous|
+|:---|:---|:---|:---|:---|:---|
+|[Accelerate](https://github.com/huggingface/accelerate)![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|:---|:---|:---|:---|:---|
+|[vLLM](https://github.com/vllm-project/vllm) ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)|:---|:---|:---|:---|:---|
+|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) ![Github stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg) ![Github forks](https://img.shields.io/github/forks/NVIDIA/TensorRT-LLM.svg)|:---|:---|:---|:---|:---|
+|[LightLLM](https://github.com/ModelTC/lightllm) ![Github stars](https://img.shields.io/github/stars/ModelTC/lightllm.svg) ![Github forks](https://img.shields.io/github/forks/ModelTC/lightllm.svg)|:---|:---|:---|:---|:---|
+|[MLC-LLM](https://github.com/mlc-ai/mlc-llm) ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|:---|:---|:---|:---|:---|
+|[DeepSpeed](https://github.com/microsoft/DeepSpeed) ![Github stars](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg) ![Github forks](https://img.shields.io/github/forks/microsoft/DeepSpeed.svg)|:---|:---|:---|:---|:---|
+
 - [Accelerate](https://github.com/huggingface/accelerate) | HuggingFace ![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)
   - Prioritized optimization target: xxx
   - Optimization: xxx
