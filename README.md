@@ -8,17 +8,18 @@ This is a repository for organizing papers, codes and other resources related to
 ## LLM Serving Systems
 
 - Parallel compuation: tensor parallelism (TP), pipeline parallelism (PP), and CPU-GPU offloading (Offload).
-- Heterogeneous: running LLMs on multiple heterogeneous devices. 
+- Heterogeneous: running LLMs on multiple heterogeneous devices.
+- Prioritized Optimization Target: latency (L) and throughput (T). 
 
 |Serving System|Prioritized Optimization Target|Serving Optimization|Main Features|Parallel Computation|Heterogeneous|
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---|:---:|:---:|:---:|:---:|
 |[Accelerate](https://github.com/huggingface/accelerate)|xxx|xxx|xxx|✔️TP<br>✔️PP<br>✔️Offload||
-|[vLLM](https://github.com/vllm-project/vllm)|Throughput|xxx|xxx|✔️TP<br>✔️PP|✔️|
-|[llama.cpp](https://github.com/ggerganov/llama.cpp)|Latency|xxx|xxx|✔️TP<br>✔️PP|✔️|
-|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)|Latency|xxx|xxx|||
-|[DeepSpeedInference](https://github.com/microsoft/DeepSpeed)|Throughput|xxx|xxx|||
+|[vLLM](https://github.com/vllm-project/vllm)|T|xxx|xxx|✔️TP<br>✔️PP|✔️|
+|[llama.cpp](https://github.com/ggerganov/llama.cpp)|L|xxx|xxx|✔️TP<br>✔️PP|✔️|
+|[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)|L|xxx|xxx|||
+|[DeepSpeedInference](https://github.com/microsoft/DeepSpeed)|T|xxx|xxx|||
 |[LightLLM](https://github.com/ModelTC/lightllm)|xxx|xxx|xxx|||
-|[MLC-LLM](https://github.com/mlc-ai/mlc-llm)|Latency|xxx|xxx|||
+|[MLC-LLM](https://github.com/mlc-ai/mlc-llm)|L|xxx|xxx|||
 
 ## Distributed Inference
 - [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue
