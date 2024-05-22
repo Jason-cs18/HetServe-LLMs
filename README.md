@@ -6,9 +6,25 @@ This is a repository for organizing papers, codes and other resources related to
 - [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/pdf/2312.15234) | Carnegie Mellon University
 
 ## LLM Serving Systems
+> tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
 
-- Parallel compuation: tensor parallelism (TP), pipeline parallelism (PP), and CPU-GPU offloading (Offload).
-- Heterogeneous: running LLMs on multiple heterogeneous devices.
+- [Accelerate](https://github.com/huggingface/accelerate) | HuggingFace
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: TP, PP, offload
+  - Heterogeneous: xxx 
+- [vLLM](https://github.com/vllm-project/vllm) | UC Berkeley
+  - Prioritized optimization target: xxx
+  - Optimization: xxx
+  - Main features: xxx
+  - Parallel computation: xxx
+  - Heterogeneous: xxx 
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) | Georgi Gerganov
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA
+- [DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft
+- [LightLLM](https://github.com/ModelTC/lightllm) | ModelTC
+- [MLC-LLM](https://github.com/mlc-ai/mlc-llm) | CMU
 
 |Serving System|Prioritized Opt. Target|Optimization|Main Features|Parallel Computation|Heterogeneous|
 |:---:|:---|:---|:---|:---|:---:|
