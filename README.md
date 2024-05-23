@@ -36,3 +36,8 @@ This is a repository for organizing papers, codes and other resources related to
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
 - [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) | Alibaba Group
 - [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
+
+## Other list
+- [Awesome AI System](https://github.com/lambda7xx/awesome-AI-system)
+- [Awesome LLM Systems Papers](https://github.com/AmberLJC/LLMSys-PaperList)
+- [Awesome-LLM-System-Papers](https://github.com/AmadeusChan/Awesome-LLM-System-Papers?tab=readme-ov-file)
