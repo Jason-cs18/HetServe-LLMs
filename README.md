@@ -5,7 +5,7 @@ This is a repository for organizing papers, codes and other resources related to
 - [Full Stack Optimization of Transformer Inference: a Survey](https://arxiv.org/abs/2302.14017) | UC Berkeley
 - [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/pdf/2312.15234) | Carnegie Mellon University
 
-## Open-source LLM serving optimizations
+## LLM serving optimizations
 ### Latency-oriented
 - [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://proceedings.neurips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf) | Stanford University
 - [EMNLP 2023] [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245) | Google Research
@@ -17,7 +17,7 @@ This is a repository for organizing papers, codes and other resources related to
 - [SOSP 2023] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/abs/10.1145/3600006.3613165) | UC Berkeley
 - [ICLR 2024] [Efficient Streaming Language Models with Attention Sinks](https://hanlab.mit.edu/projects/streamingllm) | MIT
 
-## LLM serving systems
+## Open-source LLM serving systems
 > tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
 
 |Serving system|Optimization target|Optimization|Parallel computation|Heterogeneous|
