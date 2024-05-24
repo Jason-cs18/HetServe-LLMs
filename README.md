@@ -63,7 +63,7 @@ This is a repository for organizing papers, codes and other resources related to
 
 |Parallelism|Tensor Parallelism (TP)|Sequence Parallelism (SP)|
 |:---:|:---:|:---:|
-|Illustration|![](https://mmbiz.qpic.cn/mmbiz_png/AAQtmjCc74AzI4S2pibIpCrWfDWiaBeFZO5ZsZ8WYAoDkTeVIkaFep2Joicxz1diaHWHKCDicibdp50IV5jzN7sNIic1w/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)<br>*Image source: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473)*||
+|Illustration|![](https://github.com/Jason-cs18/HetServe-LLMs/blob/main/tensor_parallelism.png)<br>*Image source: [LoongServe](https://arxiv.org/pdf/2404.09526)*| ![](https://github.com/Jason-cs18/HetServe-LLMs/blob/main/sequence_parallelism.png)<br>*Image source: [LoongServe](https://arxiv.org/pdf/2404.09526)*|
 
 - [NeurIPS 2019] [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://arxiv.org/abs/1811.06965) | Google
 - [SC 2021] [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) | NVIDIA
