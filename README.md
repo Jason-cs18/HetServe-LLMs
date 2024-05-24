@@ -1,5 +1,5 @@
 # HetServe-LLMs
-This is a repository for organizing papers, codes and other resources related to the topic of distributed serving LLMs.
+This is a repository for organizing papers, codes and other resources related to the topic of efficiently serving LLMs over heterogeneous devices.
 
 ## LLM serving survey
 - [arXiv 2023.02] [Full Stack Optimization of Transformer Inference: a Survey](https://arxiv.org/abs/2302.14017) | UC Berkeley
