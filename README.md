@@ -7,6 +7,8 @@ This is a repository for organizing papers, codes and other resources related to
 
 ## LLM serving
 
+![](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs/raw/main/media/llm_inferece_dataflow.png)
+
 ### Background
 - [NeurIPS 2017] [Attention is all you need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) | Google Brain
 - [NeurIPS 2020] [Language Models are Few-Shot Learners](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) | OpenAI
