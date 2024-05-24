@@ -21,6 +21,8 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
     - [Parallelism](#Parallelism)
   - [Open-source LLM Serving Systems](#Open-source-LLM-Serving-Systems)
 - [Serving on Heterogeneous Devices](#Serving-on-Heterogeneous-Devices)
+  - [A Single Device](#A-Single-Device)
+  - [Scaling to Distributed Devices](#Scaling-to-Distributed-Devices)
 - [Other List](#Other-List)
 
 ## LLM Serving Survey
