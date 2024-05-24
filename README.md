@@ -74,7 +74,7 @@ This is a repository for organizing papers, codes and other resources related to
 ### Open-source LLM serving systems
 > tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
 
-|Serving system|Optimization target|Optimization|Parallel computation|Heterogeneous|
+|Serving system|Target|Optimization|Parallelism|Heterogeneous|
 |:---|:---|:---|:---|:---|
 |[FlexGen](https://github.com/FMInference/FlexGen)![Github stars](https://img.shields.io/github/stars/FMInference/FlexGen.svg) ![Github forks](https://img.shields.io/github/forks/FMInference/FlexGen.svg)|xxx|xxx|xxx|xxx|
 |[Accelerate](https://github.com/huggingface/accelerate)![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|xxx|xxx|xxx|xxx|
