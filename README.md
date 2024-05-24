@@ -109,7 +109,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 
 > Supported hardware: NVIDIA GPU, AMD GPU, Intel CPU
 
-|Serving system|Target|Optimization|Parallelism|Hardware|
+|Serving System|Target|Optimization|Parallelism|Hardware|
 |:---|:---|:---|:---|:---|
 |[vLLM](https://github.com/vllm-project/vllm) ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)|Throughput|Quantization, Flash Attention, PagedAttention, Speculation, Continuous batching|TP|NVIDIA GPU, Intel CPU, AMD GPU|
 |[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) ![Github stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg) ![Github forks](https://img.shields.io/github/forks/NVIDIA/TensorRT-LLM.svg)|Latency|Quantization, Flash Attention|TP, PP|NVIDIA GPU|
