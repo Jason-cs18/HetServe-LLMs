@@ -9,6 +9,19 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 
 ## Table of Contents
 - [LLM Serving Survey](#LLM-Serving-Survey)
+- [LLM Serving](#LLM-Serving)
+  - [Background](#Background)
+  - [Serving Metrics](#Serving-Metrics)
+  - [Latency-oriented Optimizations](#Latency-oriented-Optimizations)
+    - [Efficient Models](#Efficient-Models)
+    - [Efficient Operators/Kernels](#Efficient-Operators/Kernels)
+    - [Quantization](#Quantization)
+  - [Throughput-oriented Optimizations](#Throughput-oriented-Optimizations)
+    - [Resource Management](#Resource-Management)
+    - [Parallelism](#Parallelism)
+  - [Open-source LLM Serving Systems](#Open-source-LLM-Serving-Systems)
+- [Serving on Heterogeneous Devices](#Serving-on-Heterogeneous-Devices)
+- [Other List](#Other-List)
 
 ## LLM Serving Survey
 - [arXiv 2023.02] [Full Stack Optimization of Transformer Inference: a Survey](https://arxiv.org/abs/2302.14017) | UC Berkeley
@@ -36,7 +49,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [Tech Blog] [LLM Inference Performance Engineering: Best Practices](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices) | Mosaic AI Research
 - [arXiv 2024.04] [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) | University of Michigan
 
-### Latency-oriented
+### Latency-oriented Optimizations
 
 #### Efficient Models
 - [ICML 2022] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) | Microsoft
@@ -53,7 +66,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [ICML 2023] [moothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://github.com/mit-han-lab/smoothquant) | MIT
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://hanlab.mit.edu/projects/awq) | MIT
 
-### Throughput-oriented
+### Throughput-oriented Optimizations
 
 #### Resource Management
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
