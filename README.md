@@ -8,7 +8,7 @@ This is a repository for organizing papers, codes and other resources related to
 ## LLM serving
 
 ![](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs/raw/main/media/llm_inferece_dataflow.png)
-*Image sources: [Efficient Large Language Model (LLM) Inferencing on GPUs](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs?tab=readme-ov-file)*
+*Image source: [Efficient Large Language Model (LLM) Inferencing on GPUs](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs?tab=readme-ov-file)*
 
 ### Background
 - [NeurIPS 2017] [Attention is all you need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) | Google Brain
