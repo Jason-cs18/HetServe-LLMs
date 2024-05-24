@@ -66,7 +66,8 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [arXiv 2023.11] [FlashDecoding++: Faster Large Language Model Inference on GPUs](https://arxiv.org/abs/2311.01282) | Tsinghua University & Infinigence-AI
 
 #### Quantization
-- [ICML 2023] [moothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://github.com/mit-han-lab/smoothquant) | MIT
+- [ICLR 2023] [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) | IST Austria
+- [ICML 2023] [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://github.com/mit-han-lab/smoothquant) | MIT
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://hanlab.mit.edu/projects/awq) | MIT
 
 ### Throughput-oriented Optimizations
@@ -102,7 +103,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 ### Open-source LLM Serving Systems
 > Target: Latency or Throughput
 
-> Optimization: Quantization, Flash Attention, PagedAttention, Speculation
+> Optimization: Quantization, Flash Attention, PagedAttention, Speculation, Continuous batching
 
 > Parallelism: Tensor Parallelism (TP), Pipeline Parallelism (PP), Sequence Parallelism (SP), CPU-GPU offloading (offload)
 
@@ -111,7 +112,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 > Easy-to-use: easy to run and customize 
 
 |Serving system|Target|Optimization|Parallelism|Hardware|Easy-to-use|
-|:---|:---|:---|:---|:---|:---|
+|:---|:---|:---|:---|:---|:---:|
 |[FlexGen](https://github.com/FMInference/FlexGen)![Github stars](https://img.shields.io/github/stars/FMInference/FlexGen.svg) ![Github forks](https://img.shields.io/github/forks/FMInference/FlexGen.svg)|xxx|xxx|xxx|xxx|xxx|
 |[Accelerate](https://github.com/huggingface/accelerate)![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|xxx|xxx|xxx|xxx|xxx|
 |[vLLM](https://github.com/vllm-project/vllm) ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)|xxx|xxx|xxx|xxx|xxx|
@@ -120,7 +121,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 |[MLC-LLM](https://github.com/mlc-ai/mlc-llm) ![Github stars](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg) ![Github forks](https://img.shields.io/github/forks/mlc-ai/mlc-llm.svg)|xxx|xxx|xxx|xxx|xxx|
 |[DeepSpeed](https://github.com/microsoft/DeepSpeed) ![Github stars](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg) ![Github forks](https://img.shields.io/github/forks/microsoft/DeepSpeed.svg)|xxx|xxx|xxx|xxx|xxx|
 |[llama.cpp](https://github.com/ggerganov/llama.cpp) ![Github stars](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg) ![Github forks](https://img.shields.io/github/forks/ggerganov/llama.cpp.svg)|xxx|xxx|xxx|xxx|xxx|
-|[text-generation-inference](https://huggingface.co/docs/text-generation-inference/en/index) ![Github stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/text-generation-inference.svg)|xxx|xxx|xxx|xxx|xxx|
+|[text-generation-inference](https://huggingface.co/docs/text-generation-inference/en/index) ![Github stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/text-generation-inference.svg)|Latency and Throughput|Quantization, Flash Attention, PagedAttention, Continuous batching|TP|NVIDIA GPU, AMD GPU, Intel CPU|✔️|
 
 ## Serving on Heterogeneous Devices
 - [FMEC 2023] [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
