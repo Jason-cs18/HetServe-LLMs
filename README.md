@@ -11,6 +11,7 @@ This is a repository for organizing papers, codes and other resources related to
 *Image source: [Efficient Large Language Model (LLM) Inferencing on GPUs](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs?tab=readme-ov-file)*
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/AAQtmjCc74AzI4S2pibIpCrWfDWiaBeFZOibkVAQgVwI2m6IicEdEjHgPHTwR6aGclubTx9MRFVFoYSjObI9QgvQzA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
 *Image source: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/abs/10.1145/3600006.3613165)*
 
 ### Background
