@@ -5,7 +5,7 @@
 Large language models (LLMs) have demonstrated strong results on many important tasks. However, serving them is not easy due to a large resource demanding. [The reason for serving LLMs with compute networks] In our overview, we provide a systematic and comprehensive overview of serving LLMs across distributed edge devices.
 
 ## Why Efficiently Serving LLMs over Distributed Heterogeneous Devices is Needed?
-xxx
+Efficiently serving LLMS over distributed heterogeneous devices is necessary to provide a seamless user experience with low latency. It enables scalability by leveraging resources from multiple devices, optimizing load balancing and resource utilization. This approach helps manage network congestion by distributing the delivery load across different devices. With the diverse range of device types available, efficient serving ensures that each device receives an optimized stream tailored to its capabilities. Overall, efficiently serving LLMS over distributed heterogeneous devices improves user experience, scalability, network performance, and accommodates the growing variety of devices in use.
 
 ## LLM Serving Survey
 - [arXiv 2023.02] [Full Stack Optimization of Transformer Inference: a Survey](https://arxiv.org/abs/2302.14017) | UC Berkeley
