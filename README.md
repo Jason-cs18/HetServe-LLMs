@@ -15,6 +15,7 @@ This is a repository for organizing papers, codes and other resources related to
 
 ### Serving Metrics
 - [Tech Blog] [LLM Inference Performance Engineering: Best Practices](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices) | Mosaic AI Research
+- [arXiv 2024.04] [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) | University of Michigan
 
 ### Latency-oriented
 #### Efficient models
@@ -27,7 +28,6 @@ This is a repository for organizing papers, codes and other resources related to
 #### Quantization
 - [ICML 2023] [moothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://github.com/mit-han-lab/smoothquant) | MIT
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://hanlab.mit.edu/projects/awq) | MIT
-- [arXiv 2024.04] [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) | University of Michigan
 
 ### Throughput-oriented
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
