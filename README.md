@@ -94,9 +94,12 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [arXiv 2024.04] [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) | Peking University
 
 ### Open-source LLM Serving Systems
-> tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
+> Target: Latency or Throughput
+> Optimization: Quantization, Flash Attention, PagedAttention, Speculation
+> Parallelism: Tensor Parallelism (TP), Pipeline Parallelism (PP), Sequence Parallelism (SP), CPU-GPU offloading (offload)
+> Supported hardware: NVIDIA GPU, AMD GPU, Intel CPU
 
-|Serving system|Target|Optimization|Parallelism|Heterogeneous|
+|Serving system|Target|Optimization|Parallelism|Supported Hardware|
 |:---|:---|:---|:---|:---|
 |[FlexGen](https://github.com/FMInference/FlexGen)![Github stars](https://img.shields.io/github/stars/FMInference/FlexGen.svg) ![Github forks](https://img.shields.io/github/forks/FMInference/FlexGen.svg)|xxx|xxx|xxx|xxx|
 |[Accelerate](https://github.com/huggingface/accelerate)![Github stars](https://img.shields.io/github/stars/huggingface/accelerate.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/accelerate.svg)|xxx|xxx|xxx|xxx|
