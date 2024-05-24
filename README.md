@@ -7,6 +7,12 @@ This is a repository for organizing papers, codes and other resources related to
 
 ## LLM serving
 
+### Background
+- [NeurIPS 2017] [Attention is all you need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) | Google Brain
+- [NeurIPS 2020] [Language Models are Few-Shot Learners](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) | OpenAI
+- [arXiv 2020.01] [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361) | Johns Hopkins University and OpenAI
+- [arXiv 2022.01] [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/pdf/2112.11446) | DeepMind
+
 ### Serving Metrics
 
 ### Latency-oriented
@@ -16,6 +22,7 @@ This is a repository for organizing papers, codes and other resources related to
 - [EMNLP 2023] [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245) | Google Research
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://hanlab.mit.edu/projects/awq) | MIT
 - [ICLR 2024] [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://openreview.net/forum?id=mZn2Xyh9Ec) | Princeton University
+- [arXiv 2024.04] [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) | University of Michigan
 
 ### Throughput-oriented
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
@@ -23,6 +30,12 @@ This is a repository for organizing papers, codes and other resources related to
 - [SOSP 2023] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/abs/10.1145/3600006.3613165) | UC Berkeley
 - [ICLR 2024] [Efficient Streaming Language Models with Attention Sinks](https://hanlab.mit.edu/projects/streamingllm) | MIT
 - [arXiv 2024.01] [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://arxiv.org/pdf/2401.09670) | Peking University
+- [arXiv 2024.02] [FlexLLM: A System for Co-Serving Large Language Model Inference and Parameter-Efficient Finetuning](https://arxiv.org/pdf/2402.18789) | Carnegie Mellon University
+- [arXiv 2024.03] [AttentionStore: Cost-effective Attention Reuse across Multi-turn Conversations in Large Language Model Serving](https://arxiv.org/pdf/2403.19708) | National University of Singapore
+- [arXiv 2024.04] [MuxServe: Flexible Multiplexing for Efficient Multiple LLM Serving](https://arxiv.org/abs/2404.02015) | The Chinese University of Hong Kong
+- [arXiv 2024.04] [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) | Peking University
+- [arXiv 2024.04] [BlockLLM: Multi-tenant Finer-grained Serving for Large Language Models](https://arxiv.org/pdf/2404.18322) | City University of Hong Kong
+- [arXiv 2024.05] [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/pdf/2405.04437) | Microsoft Research India
 
 ### Distributed serving
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
@@ -45,12 +58,14 @@ This is a repository for organizing papers, codes and other resources related to
 
 ## Serving on heterogeneous devices
 - [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
-- [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
+- [ASPLOS 2023] [STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining](https://arxiv.org/abs/2207.05022) | University of Virginia
+- [arXiv 2023.12] [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
+- [arXiv 2023.12] [SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads](https://arxiv.org/pdf/2312.16733) | Georgia Tech
+- [arXiv 2024.02] [APISERVE: Efficient API Support for Large-Language Model Inferencing](https://arxiv.org/pdf/2402.01869) | University of California, San Diego
 
 ## Other list
 - [Awesome AI System](https://github.com/lambda7xx/awesome-AI-system)
 - [Awesome LLM Systems Papers](https://github.com/AmberLJC/LLMSys-PaperList)
 - [Awesome-LLM-System-Papers](https://github.com/AmadeusChan/Awesome-LLM-System-Papers?tab=readme-ov-file)
-
-## Userful external links
-- [Efficient Large Language Model (LLM) Inferencing on GPUs](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs?tab=readme-ov-file) 
+- [Efficient Large Language Model (LLM) Inferencing on GPUs](https://github.com/yinuotxie/Efficient-LLM-Inferencing-on-GPUs?tab=readme-ov-file)
+- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
