@@ -60,6 +60,10 @@ This is a repository for organizing papers, codes and other resources related to
 - [arXiv 2024.05] [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/pdf/2405.04437) | Microsoft Research India
 
 #### Parallelism
+
+|Parallelism|Tensor Parallelism (TP)|Sequence Parallelism (SP)|
+|Illustration|![](https://mmbiz.qpic.cn/mmbiz_png/AAQtmjCc74AzI4S2pibIpCrWfDWiaBeFZO5ZsZ8WYAoDkTeVIkaFep2Joicxz1diaHWHKCDicibdp50IV5jzN7sNIic1w/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)<br>*Image source: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473)*||
+
 - [NeurIPS 2019] [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://arxiv.org/abs/1811.06965) | Google
 - [SC 2021] [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) | NVIDIA
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
