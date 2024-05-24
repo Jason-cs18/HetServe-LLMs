@@ -2,7 +2,7 @@
 > [A Overview of Efficiently Serving Large Language Models across Edge Devices [arXiv]]()
 
 ## What is This Overview About? 
-Large language models (LLMs) have demonstrated strong results on many important tasks. However, serving them is not easy due to a large resource demanding. _[The reason for serving LLMs with compute power networks]_ In our overview, we provide a systematic and comprehensive overview of serving LLMs across distributed edge devices.
+Large language models (LLMs) have achieved impressive results across various tasks. However, their resource-intensive nature poses challenges for efficient deployment. In our overview, we explore serving LLMs on distributed edge devices, addressing scalability and latency concerns.
 
 ## Why Efficiently Serving LLMs over Distributed Heterogeneous Devices is Needed?
 Efficiently serving LLMs over distributed heterogeneous devices is necessary to provide a seamless user experience with low latency. It enables scalability by leveraging resources from multiple devices, optimizing load balancing and resource utilization. This approach helps manage network congestion by distributing the delivery load across different devices. With the diverse range of device types available, efficient serving ensures that each device receives an optimized stream tailored to its capabilities. Overall, efficiently serving LLMs over distributed heterogeneous devices improves user experience, scalability, network performance, and accommodates the growing variety of devices in use.
