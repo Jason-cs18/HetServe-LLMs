@@ -56,6 +56,9 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [EMNLP 2023] [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245) | Google Research
 - [ICML 2023] [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | Google Research
 - [ACL 2023] [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301) | University of Washington
+- [arXiv 2023.05] [SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification](https://www.cs.cmu.edu/~zhihaoj2/papers/specinfer.pdf) | Carnegie Mellon University
+- [arXiv 2024.02] [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) | University of California, San Diego
+- [ACL 2024] [Draft & Verify: Lossless Large Language Model Acceleration via Self-Speculative Decoding](https://arxiv.org/pdf/2309.08168) | Zhejiang University
 
 #### Efficient Operators/Kernels
 - [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://proceedings.neurips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf) | Stanford University
@@ -69,6 +72,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 ### Throughput-oriented Optimizations
 
 #### Resource Management
+- [PPoPP 2021] [TurboTransformers: An Efficient GPU Serving System For Transformer Models](https://dl.acm.org/doi/pdf/10.1145/3437801.3441578) | Tencent
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
 - [SOSP 2023] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/abs/10.1145/3600006.3613165) | UC Berkeley
 - [ICLR 2024] [Efficient Streaming Language Models with Attention Sinks](https://hanlab.mit.edu/projects/streamingllm) | MIT
@@ -90,7 +94,9 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
 - [ICML 2023] [FlexGen: high-throughput generative inference of large language models with a single GPU](https://dl.acm.org/doi/10.5555/3618408.3619696) | Stanford Univeristy
 - [arXiv 2023.05] [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
+- [arXiv 2023.12] [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | Shanghai Jiao Tong University
 - [arXiv 2024.01] [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) | Alibaba Group
+- [arXiv 2024.03] [FASTDECODE: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines](https://arxiv.org/pdf/2403.11421) | Tsinghua University
 - [arXiv 2024.04] [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) | Peking University
 
 ### Open-source LLM Serving Systems
@@ -119,6 +125,8 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [ASPLOS 2023] [STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining](https://arxiv.org/abs/2207.05022) | University of Virginia
 - [arXiv 2023.12] [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
 - [arXiv 2023.12] [SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads](https://arxiv.org/pdf/2312.16733) | Georgia Tech
+- [ACL 2023 Demo] [PETALS: Collaborative Inference and Fine-tuning of Large Models](https://aclanthology.org/2023.acl-demo.54/)
+- [arXiv 2023.08] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/pdf/2308.14352) | Beijing University of Posts and Telecommunications
 - [arXiv 2024.02] [APISERVE: Efficient API Support for Large-Language Model Inferencing](https://arxiv.org/pdf/2402.01869) | University of California, San Diego
 
 ## Other List
