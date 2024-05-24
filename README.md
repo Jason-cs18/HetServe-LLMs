@@ -111,11 +111,12 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 
 |Serving system|Target|Optimization|Parallelism|Hardware|
 |:---|:---|:---|:---|:---|
-|[FlexGen](https://github.com/FMInference/FlexGen)![Github stars](https://img.shields.io/github/stars/FMInference/FlexGen.svg) ![Github forks](https://img.shields.io/github/forks/FMInference/FlexGen.svg)|Throughput||offload|NVIDIA GPU, Intel CPU|
 |[vLLM](https://github.com/vllm-project/vllm) ![Github stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) ![Github forks](https://img.shields.io/github/forks/vllm-project/vllm.svg)|Throughput|Quantization, Flash Attention, PagedAttention, Speculation, Continuous batching|TP|NVIDIA GPU, Intel CPU, AMD GPU|
 |[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) ![Github stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg) ![Github forks](https://img.shields.io/github/forks/NVIDIA/TensorRT-LLM.svg)|Latency|Quantization, Flash Attention|TP, PP|NVIDIA GPU|
 |[llama.cpp](https://github.com/ggerganov/llama.cpp) ![Github stars](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg) ![Github forks](https://img.shields.io/github/forks/ggerganov/llama.cpp.svg)|Latency|Quantization, Flash Attention, Speculation, Continuous batching|TP, PP|NVIDIA GPU, AMD GPU, Intel GPU/CPU, Mac|
 |[text-generation-inference](https://huggingface.co/docs/text-generation-inference/en/index) ![Github stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/text-generation-inference.svg)|Latency and Throughput|Quantization, Flash Attention, PagedAttention, Continuous batching|TP|NVIDIA GPU, AMD GPU, Intel CPU|
+
+*If your tasks are latency-sensistive, please use llama.cpp or TensorRT-LLM. If your tasks are latency-insensitive, please use vLLM to achieve the maximum throughput. If you just want to evaluate your research ideas with serving optimizations, text-generation-inference is a good chooice.*
 
 ## Serving on Heterogeneous Devices
 - [FMEC 2023] [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
