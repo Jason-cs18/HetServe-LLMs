@@ -95,8 +95,11 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 
 ### Open-source LLM Serving Systems
 > Target: Latency or Throughput
+
 > Optimization: Quantization, Flash Attention, PagedAttention, Speculation
+
 > Parallelism: Tensor Parallelism (TP), Pipeline Parallelism (PP), Sequence Parallelism (SP), CPU-GPU offloading (offload)
+
 > Supported hardware: NVIDIA GPU, AMD GPU, Intel CPU
 
 |Serving system|Target|Optimization|Parallelism|Supported Hardware|
