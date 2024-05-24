@@ -16,6 +16,9 @@ This is a repository for organizing papers, codes and other resources related to
 - [arXiv 2020.01] [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361) | Johns Hopkins University and OpenAI
 - [arXiv 2022.01] [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/pdf/2112.11446) | DeepMind
 
+![](https://mmbiz.qpic.cn/mmbiz_png/AAQtmjCc74AzI4S2pibIpCrWfDWiaBeFZO6xKDZNW06WkyAfGByibk2iacC5bJkKbrzskicG84C1dM7d74iaMoRJXoQA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+*Image source: [Large Language Models (in 2023)](https://www.youtube.com/watch?v=dbo3kNKPaUA)*
+
 ### Serving Metrics
 - [Tech Blog] [LLM Inference Performance Engineering: Best Practices](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices) | Mosaic AI Research
 - [arXiv 2024.04] [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) | University of Michigan
