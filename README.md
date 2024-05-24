@@ -24,6 +24,7 @@ This is a repository for organizing papers, codes and other resources related to
 #### Efficient models
 - [ICML 2022] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) | Microsoft
 - [EMNLP 2023] [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245) | Google Research
+- [ICML 2023] [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | Google Research
 #### Efficient operators/kernels
 - [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://proceedings.neurips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf) | Stanford University
 - [ICLR 2024] [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://openreview.net/forum?id=mZn2Xyh9Ec) | Princeton University
@@ -33,6 +34,7 @@ This is a repository for organizing papers, codes and other resources related to
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://hanlab.mit.edu/projects/awq) | MIT
 
 ### Throughput-oriented
+#### Resource management
 - [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
 - [ICML 2023] [FlexGen: high-throughput generative inference of large language models with a single GPU](https://dl.acm.org/doi/10.5555/3618408.3619696) | Stanford Univeristy
 - [SOSP 2023] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/abs/10.1145/3600006.3613165) | UC Berkeley
@@ -45,10 +47,12 @@ This is a repository for organizing papers, codes and other resources related to
 - [arXiv 2024.04] [BlockLLM: Multi-tenant Finer-grained Serving for Large Language Models](https://arxiv.org/pdf/2404.18322) | City University of Hong Kong
 - [arXiv 2024.05] [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/pdf/2405.04437) | Microsoft Research India
 
-### Distributed serving
-- [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
-- [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) | Alibaba Group
-- [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
+#### Parallelism
+- [NeurIPS 2019] [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://arxiv.org/abs/1811.06965) | Google
+- [SC 2021] [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) | NVIDIA
+- [OSDI 2022] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | Seoul National University
+- [arXiv 2023.05] [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
+- [arXiv 2024.01] [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) | Alibaba Group
 
 ### Open-source LLM serving systems
 > tensor parallelism (TP), pipeline parallelism (PP), CPU-GPU offloading (offload)
