@@ -121,7 +121,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 |[llama.cpp](https://github.com/ggerganov/llama.cpp) ![Github stars](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg) ![Github forks](https://img.shields.io/github/forks/ggerganov/llama.cpp.svg)|Latency|Quantization, Flash Attention, Speculation, Continuous batching|TP, PP|NVIDIA GPU, AMD GPU, Intel GPU/CPU, Mac|
 |[text-generation-inference](https://huggingface.co/docs/text-generation-inference/en/index) ![Github stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/text-generation-inference.svg)|Latency and Throughput|Quantization, Flash Attention, PagedAttention, Continuous batching|TP|NVIDIA GPU, AMD GPU, Intel CPU|
 
-*Note: If your tasks are latency-sensistive, please use llama.cpp or TensorRT-LLM. If your tasks are latency-insensitive, please use vLLM for a better throughput. If you just want to evaluate your research ideas with serving optimizations, text-generation-inference is a good chooice.*
+*Note: If your tasks are latency-sensistive, please use llama.cpp or TensorRT-LLM. If your tasks are latency-insensitive and have enough powerful GPUs, please use vLLM for a better throughput. If you just want to evaluate your research ideas with serving optimizations, text-generation-inference is a good chooice.*
 
 ## Serving on Heterogeneous Devices
 - [FMEC 2023] [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
