@@ -136,6 +136,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [arXiv 2023.12] [SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads](https://arxiv.org/pdf/2312.16733) | Georgia Tech
 - [ACL 2023 Demo] [PETALS: Collaborative Inference and Fine-tuning of Large Models](https://aclanthology.org/2023.acl-demo.54/) | HSE University and Yandex
 - [arXiv 2024.02] [APISERVE: Efficient API Support for Large-Language Model Inferencing](https://arxiv.org/pdf/2402.01869) | University of California, San Diego
+- [Tech Report] [Task Scheduling for Decentralized LLM Serving in Heterogeneous Networks](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-111.pdf) | UC Berkeley
 
 ## Other List
 - [Awesome AI System](https://github.com/lambda7xx/awesome-AI-system)
