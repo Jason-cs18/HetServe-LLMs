@@ -85,7 +85,9 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [SOSP 2023] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/abs/10.1145/3600006.3613165) | UC Berkeley
 - [ICLR 2024] [Efficient Streaming Language Models with Attention Sinks](https://hanlab.mit.edu/projects/streamingllm) | MIT
 - [arXiv 2024.01] [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://arxiv.org/pdf/2401.09670) | Peking University
-- [arXiv 2024.02] [FlexLLM: A System for Co-Serving Large Language Model Inference and Parameter-Efficient Finetuning](https://arxiv.org/pdf/2402.18789) | Carnegie Mellon University
+- [arXiv 2024.02] [FlexLLM: A System for Co-Serving Large Language Model Inference and Parameter-Efficient Finetuning](https://arxiv.org/pdf/2402.18789) | Carnegie Mellon 
+- [arXiv 2024.02] [MuxServe: Flexible Multiplexing for Efficient Multiple LLM Serving](https://arxiv.org/abs/2404.02015)
+- [arXiv 2024.03] [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311)
 - [arXiv 2024.03] [AttentionStore: Cost-effective Attention Reuse across Multi-turn Conversations in Large Language Model Serving](https://arxiv.org/pdf/2403.19708) | National University of Singapore
 - [arXiv 2024.04] [MuxServe: Flexible Multiplexing for Efficient Multiple LLM Serving](https://arxiv.org/abs/2404.02015) | The Chinese University of Hong Kong
 - [arXiv 2024.04] [BlockLLM: Multi-tenant Finer-grained Serving for Large Language Models](https://arxiv.org/pdf/2404.18322) | City University of Hong Kong
@@ -123,13 +125,14 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 |[llama.cpp](https://github.com/ggerganov/llama.cpp) ![Github stars](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg) ![Github forks](https://img.shields.io/github/forks/ggerganov/llama.cpp.svg)|Latency|Quantization, Flash Attention, Speculation, Continuous batching|TP, PP|NVIDIA GPU, AMD GPU, Intel GPU/CPU, Mac|
 |[text-generation-inference](https://huggingface.co/docs/text-generation-inference/en/index) ![Github stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) ![Github forks](https://img.shields.io/github/forks/huggingface/text-generation-inference.svg)|Latency and Throughput|Quantization, Flash Attention, PagedAttention, Continuous batching|TP|NVIDIA GPU, AMD GPU, Intel CPU|
 
-*Note: If your tasks are latency-sensistive, please use llama.cpp or TensorRT-LLM. If your tasks are latency-insensitive and have enough powerful GPUs, please use vLLM for a better throughput. If you just want to evaluate your research ideas with serving optimizations, text-generation-inference is a good chooice.*
+*Suggestion: If your tasks are latency-sensistive, please use llama.cpp or TensorRT-LLM. If your tasks are latency-insensitive and have enough powerful GPUs, please use vLLM for a better throughput. If you just want to evaluate your research ideas with serving optimizations, text-generation-inference is a good chooice.*
 
 ## Serving on Heterogeneous Devices
 ### A Single Device
 - [ICML 2023] [FlexGen: high-throughput generative inference of large language models with a single GPU](https://dl.acm.org/doi/10.5555/3618408.3619696) | Stanford Univeristy
 - [arXiv 2023.12] [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
 - [arXiv 2023.08] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/pdf/2308.14352) | Beijing University of Posts and Telecommunications
+- [ASPLOS'24] [NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing](https://dl.acm.org/doi/10.1145/3620666.3651380) | KAIST
 ### Scaling to Distributed Devices
 - [FMEC 2023] [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
 - [ASPLOS 2023] [STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining](https://arxiv.org/abs/2207.05022) | University of Virginia
@@ -137,6 +140,9 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [ACL 2023 Demo] [PETALS: Collaborative Inference and Fine-tuning of Large Models](https://aclanthology.org/2023.acl-demo.54/) | HSE University and Yandex
 - [arXiv 2024.02] [APISERVE: Efficient API Support for Large-Language Model Inferencing](https://arxiv.org/pdf/2402.01869) | University of California, San Diego
 - [Tech Report] [Task Scheduling for Decentralized LLM Serving in Heterogeneous Networks](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-111.pdf) | UC Berkeley
+- [arXiv 2024.03] [DejaVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876) | ETH Zurich
+- [arXiv 2024.04] [Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527) | UC Berkeley
+- [MLSys 2024] [HeteGen: Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices](https://arxiv.org/abs/2403.01164) | National University of Singapore
 
 ## Other List
 - [ml-systems-papers](https://github.com/byungsoo-oh/ml-systems-papers)
