@@ -140,9 +140,11 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [ACL 2023 Demo] [PETALS: Collaborative Inference and Fine-tuning of Large Models](https://aclanthology.org/2023.acl-demo.54/) | HSE University and Yandex
 - [arXiv 2024.02] [APISERVE: Efficient API Support for Large-Language Model Inferencing](https://arxiv.org/pdf/2402.01869) | University of California, San Diego
 - [Tech Report] [Task Scheduling for Decentralized LLM Serving in Heterogeneous Networks](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-111.pdf) | UC Berkeley
+- [arXiv 2024.01] [CARASERVE: CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference](https://arxiv.org/pdf/2401.11240) | HKUST
 - [arXiv 2024.03] [DejaVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876) | ETH Zurich
 - [arXiv 2024.04] [Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527) | UC Berkeley
 - [MLSys 2024] [HeteGen: Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices](https://arxiv.org/abs/2403.01164) | National University of Singapore
+- [ICML 2024] [HEXGEN: Generative Inference of Large Language Model over Heterogeneous Environment](https://arxiv.org/pdf/2311.11514) | HKUST
 
 ## Other List
 - [ml-systems-papers](https://github.com/byungsoo-oh/ml-systems-papers)
