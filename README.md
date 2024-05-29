@@ -139,6 +139,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [Tech Report] [Task Scheduling for Decentralized LLM Serving in Heterogeneous Networks](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-111.pdf) | UC Berkeley
 
 ## Other List
+- [ml-systems-papers](https://github.com/byungsoo-oh/ml-systems-papers)
 - [Awesome AI System](https://github.com/lambda7xx/awesome-AI-system)
 - [Awesome LLM Systems Papers](https://github.com/AmberLJC/LLMSys-PaperList)
 - [Awesome-LLM-System-Papers](https://github.com/AmadeusChan/Awesome-LLM-System-Papers?tab=readme-ov-file)
