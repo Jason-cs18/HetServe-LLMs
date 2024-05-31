@@ -59,6 +59,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 ### Latency-oriented Optimizations
 
 #### Efficient Models
+- [arXiv 2020.04] [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150v2) | Allen Institute for Artificial Intelligence
 - [ICML 2022] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) | Microsoft
 - [EMNLP 2023] [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245) | Google Research
 - [ICML 2023] [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | Google Research
