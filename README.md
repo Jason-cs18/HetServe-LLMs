@@ -133,6 +133,7 @@ Efficiently serving LLMs over distributed heterogeneous devices is necessary to 
 - [ICML 2023] [FlexGen: high-throughput generative inference of large language models with a single GPU](https://dl.acm.org/doi/10.5555/3618408.3619696) | Stanford Univeristy
 - [arXiv 2023.12] [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
 - [arXiv 2023.08] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/pdf/2308.14352) | Beijing University of Posts and Telecommunications
+- [ICML 2023, Oral] [Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time](https://openreview.net/pdf?id=wIPIhHd00i)
 - [ASPLOS'24] [NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing](https://dl.acm.org/doi/10.1145/3620666.3651380) | KAIST
 ### Scaling to Distributed Devices
 - [FMEC 2023] [PipeEdge: Pipeline Parallelism for Large-Scale Model Inference on Heterogeneous Edge Devices](https://github.com/usc-isi/PipeEdge) | Purdue University
